@@ -1,0 +1,112 @@
+<!--Daniel "Akiern" Courtemanche-->
+<!DOCTYPE html>
+<!--Document Type-->
+<html lang="en">
+<!--html lang sets defualt language of the site-->
+<head>
+<!--Head tag is used for data used by browser but is not displayed-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "../CSS/EldarHome.css">
+    <script src="Factions.js"></script>
+    <!--link in meta data to access .css for rapid formating .css file should automatical load if in corect folder-->
+    <title>Eldar Home Page</title>
+</head>
+<body>
+<!--Body tag is for the substance of the webpage text,links,graphics-->
+    <h1>Eldar Exarch Command</h1>
+    <!--h is a heading based on h1-h6, h1 usually the largest but  values can be changed in the .css-->
+    <h2>Hero</h2>
+    <br>
+    <h2>HQ</h2> <button class="units" id="farSeer" onclick="farseerStat(),headerTableConst()">Farseer</button>
+    <!--Button set for faction units to active functions to populate table for stats-->
+    <br>
+    <h2>Infantry</h2><button class="units" id="guardian" onclick="guardianStat(),headerTableConst()">Guardian</button>  <button class="units" id="wraithGuard" onclick="wraithGuardStat(),headerTableConst()">Wraith Guard</button>
+    <br>
+    <h2>Mechanized</h2><button class="units" id="waveSerp" onclick="waveSerpantStat(),headerTableConst()">Wave Serpant</button><button class="units" id="firePrism" onclick="firePrismStat(),headerTableConst()">Fire Prism</button><button class="clearout" id="clearOut" onclick="clearOut()">Close</button>
+    <br>
+    <h3>Stats</h3>
+    
+    <div Class = "tables">
+    <!--Division created to do rappid changes to tables-->
+        <table class="unitTable">
+        <!--Table for unit stats-->
+        <thead>
+            <tr>
+            <th class="all" id="uT11"></th>
+            <th class="all" id="uT12"></th>
+            <th class="all" id="uT13"></th>
+            <th class="all" id="uT14"></th>
+            <th class="all" id="uT15"></th>
+            <th class="all" id="uT16"></th>
+            <th class="all" id="uT17"></th>
+            <th class="all" id="uT18"></th>
+            <th class="all" id="uT19"></th>
+            <th class="all" id="uT110"></th>
+            <!--Table Header class attempt for full access, id for indevidule cells-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td class="all" id="uT21"></td>
+            <td class="all" id="uT22"></td>
+            <td class="all" id="uT23"></td>
+            <td class="all" id="uT24"></td>
+            <td class="all" id="uT25"></td>
+            <td class="all" id="uT26"></td>
+            <td class="all" id="uT27"></td>
+            <td class="all" id="uT28"></td>
+            <td class="all" id="uT29"></td>
+            <td class="all" id="uT210"></td>
+            <!--non header based cells-->
+            </tr>
+        </tbody>
+        </table>
+    <br>
+        <table class="weaponTable">
+        <!--Table for weapon stats-->
+        <thead>
+            <tr>
+            <th class="all" id="wT11"></th>
+            <th class="all" id="wT12"></th>
+            <th class="all" id="wT13"></th>
+            <th class="all" id="wT14"></th>
+            <th class="all" id="wT15"></th>
+            <th class="all" id="wT16"></th>
+            <th class="all" id="wT17"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td class="all" id="wT21"></td>
+            <td class="all" id="wT22"></td>
+            <td class="all" id="wT23"></td>
+            <td class="all" id="wT24"></td>
+            <td class="all" id="wT25"></td>
+            <td class="all" id="wT26"></td>
+            <td class="all" id="wT27"></td>
+            </tr>
+            <tr>
+            <td class="all" id="wT31"></td>
+            <td class="all" id="wT32"></td>
+            <td class="all" id="wT33"></td>
+            <td class="all" id="wT34"></td>
+            <td class="all" id="wT35"></td>
+            <td class="all" id="wT36"></td>
+            <td class="all" id="wT37"></td>
+            </tr>
+
+        </tbody>
+        </table>
+    </div>
+    
+    <div id="unitImg">spot</div>
+    <!--setting location for future function based graphics-->
+    
+    
+    
+    
+    
+</body>
+</html>

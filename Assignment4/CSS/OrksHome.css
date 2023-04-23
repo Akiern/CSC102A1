@@ -1,0 +1,35 @@
+/*Daniel "Akiern" Courtemanche*/
+h1
+/*All changes applied to h1*/
+{
+color: gold;
+/*text color with in parent*/
+text-align: center;
+/*aligns text center of the page*/
+font-size: 75px;
+/*text size based on pixel*/
+font-family:serif;
+/*font choice*/
+text-shadow: 1px 1px 10px yellowgreen;
+/*text shadow opsition vert,horiz,width color*/
+}
+
+body
+/*All changes applied to body*/
+{
+    background-image: url(../Graphics/40KOrks.jpg);
+    /*adding backgrouund image for location*/
+    background-position-x: center;
+    /*use specific code -x to control horizontal axis*/
+    background-size:cover;
+    /*sets size of bg image, contain makes image fit*/
+    height: 90vh;
+    /*view height of the page*/
+}
+
+p
+/*All changes applied to non id paragraph*/
+{
+color: goldenrod;
+/**/
+}
